@@ -16,19 +16,19 @@ const Navbar = () => {
 
       {/* Links for larger screens */}
       <div className="hidden md:flex space-x-8 text-lg font-semibold flex-grow justify-evenly">
-      <Link href="/about" className="hover:underline text-black">
+      <Link href="/about" className="hover:text-gray-400 transition-colors duration-1000 text-xl text-black">
           HOME
         </Link>
-        <Link href="/about" className="hover:underline text-black">
+        <Link href="/about" className="hover:text-gray-400 transition-colors duration-1000 text-xl text-black">
           ABOUT
         </Link>
-        <Link href="/team" className="hover:underline text-black">
+        <Link href="/team" className="hover:text-gray-400 transition-colors duration-1000 text-xl text-black">
           SERVICES
         </Link>
-        <Link href="/news" className="hover:underline text-black">
+        <Link href="/news" className="hover:text-gray-400 transition-colors duration-1000 text-xl text-black">
           WORK
         </Link>
-        <Link href="/social" className="hover:underline text-white bg-[#2baee2] ">
+        <Link href="/social" className="hover:text-gray-400 transition-colors duration-1000 text-xl text-white bg-[#2baee2] ">
          <span className="p-4 ">MEMBERSHIP</span> 
         </Link>
       </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
 
       {/* Dropdown Menu */}
       {menuOpen && (
-        <div className="absolute h-screen top-16 left-0 w-full bg-white mt-2 shadow-lg md:hidden">
+        <div className="absolute h-screen top-16 left-0 w-full bg-white mt-10 shadow-lg md:hidden">
           <ul className="flex flex-col space-y-4 py-4 px-6 text-lg font-semibold">
             <li>
               <Link href="/about" className="block hover:underline  text-black">
