@@ -48,30 +48,30 @@ const Navbar = () => {
 
       {/* Dropdown Menu */}
       {menuOpen && (
-        <div className="absolute h-screen top-16 left-0 w-full bg-white mt-10 shadow-lg md:hidden">
-          <ul className="flex flex-col space-y-4 py-4 px-6 text-lg font-semibold">
+        <div className="absolute h-full top-16 left-0 w-full bg-white mt-10 shadow-lg md:hidden">
+          <ul className="flex flex-col space-y-4 py-4 px-6 text-lg font-semibold text-left">
             <li>
-              <Link href="/about" className="block hover:underline  text-black">
+              <Link href="/about" className="block hover:underline  text-black py-10 text-2xl">
                 HOME
               </Link>
             </li>
             <li>
-              <Link href="/team" className="block hover:underline text-black">
+              <Link href="/team" className="block hover:underline text-black py-10 text-2xl">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link href="/news" className="block hover:underline text-black">
+              <Link href="/news" className="block hover:underline text-black py-10 text-2xl">
                 SERVICES
               </Link>
             </li>
             <li>
-              <Link href="/portfolio" className="block hover:underline text-black">
+              <Link href="/portfolio" className="block hover:underline text-black py-10 text-2xl">
                 WORK
               </Link>
             </li>
             <li>
-              <Link href="/social" className="block hover:underline text-black">
+              <Link href="/social" className="block hover:underline text-black py-10 text-2xl">
                 MEMBERSHIP
               </Link>
             </li>
