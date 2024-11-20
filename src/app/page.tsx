@@ -1,14 +1,12 @@
 import React from 'react'
 import Navbar from "@/app/navbar"
-import Nebulatext from "@/app/nebulatext"
 import Heroslider from "@/app/heroslider"
 
 
 function page() {
   return (
-    <div>
+    <div className='bg-white'>
       <Navbar/>
-      <Nebulatext/>
       <Heroslider/>
       </div>
   )

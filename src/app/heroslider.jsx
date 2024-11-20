@@ -30,6 +30,15 @@ const Heroslider = () => {
   }, []);
 
   return (
+    <div>
+      <div className="flex flex-row items-center justify-center h-full bg-white mt-10">
+        <h1 className="text-black font-black text-center  text-lg md:text-[60px] text-nowrap leading-none tracking-tighter">
+          ( NEBULA ACCELERATOR )
+        </h1>
+        <p className="text-black text-sm md:text-2xl font-semibold mt-2">
+          EST. 2024
+        </p>
+      </div>
     <div className="relative w-screen h-screen mx-auto overflow-hidden">
       <div
         className="flex transition-transform duration-1000 ease-in-out h-full"
@@ -81,6 +90,7 @@ const Heroslider = () => {
       >
         &#10095;
       </button>
+    </div>
     </div>
   );
 };
